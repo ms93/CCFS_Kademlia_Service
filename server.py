@@ -185,7 +185,7 @@ def getorpost():
 				post(key,data)
 				return "key is valid:\n %s" % key
 		else: 
-			return "Invalid Input: \n %s" % key
+			return "Invalid Input: \n %s" % keys
 
 	elif request.method == 'GET':
 		global_result = None
